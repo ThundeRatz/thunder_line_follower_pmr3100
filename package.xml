@@ -8,16 +8,18 @@
     <p>Created for the discipline PMR3100 - Intro to Mechatronics from Poli-USP</p>
   </description>
 
-  <maintainer email="felipegmelo@usp.br">Felipe Gomes de Melo</maintainer>
-  <maintainer email="lucas.haug@thunderatz.org">Thalles Carneiro</maintainer>
-  <maintainer email="thalles.carneiro@thunderatz.org">Lucas Haug</maintainer>
-  <maintainer email="lucas.schneider@thunderatz.org">Lucas Schneider</maintainer>
-  <maintainer email="felipe.bagni@thunderatz.org">Felipe Bagni</maintainer>
-  <maintainer email="felipe.luna@thunderatz.org">Felipe Luna</maintainer>
-  <maintainer email="leticia.kimoto@thunderatz.org">Leticia Kimoto</maintainer>
-  <maintainer email="gabriel.kishida@thunderatz.org">Gabriel Kishida</maintainer>
-  <maintainer email="vanderson.santos@thunderatz.org">Vanderson dos Santos</maintainer>
-  <maintainer email="wu.kam@thunderatz.org">Wu Kam Long</maintainer>
+  <maintainer email="comp@thunderatz.org">ThundeRatz</maintainer>
+
+  <author email="felipegmelo@usp.br">Felipe Gomes de Melo</author>
+  <author email="lucas.haug@thunderatz.org">Thalles Carneiro</author>
+  <author email="thalles.carneiro@thunderatz.org">Lucas Haug</author>
+  <author email="lucas.schneider@thunderatz.org">Lucas Schneider</author>
+  <author email="felipe.bagni@thunderatz.org">Felipe Bagni</author>
+  <author email="felipe.luna@thunderatz.org">Felipe Luna</author>
+  <author email="leticia.kimoto@thunderatz.org">Leticia Kimoto</author>
+  <author email="gabriel.kishida@thunderatz.org">Gabriel Kishida</author>
+  <author email="vanderson.santos@thunderatz.org">Vanderson dos Santos</author>
+  <author email="wu.kam@thunderatz.org">Wu Kam Long</author>
 
   <license>MIT</license>
 
