@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
 
-  <xacro:macro name="line_sensor" params="link_reference topic_name robot_namespace:=modelo_carrinho visual:=false">
+  <xacro:macro name="line_sensor" params="link_reference topic_name robot_namespace:=thunder_line_follower_pmr3100 visual:=false">
 
     <gazebo reference="${link_reference}">
       <sensor type="camera" name="${link_reference}_sensor">

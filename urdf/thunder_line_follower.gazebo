@@ -6,8 +6,8 @@
 
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-   <xacro:include filename="$(find modelo_carrinho)/urdf/sensors/line.sensor" />
-   <xacro:include filename="$(find modelo_carrinho)/urdf/sensors/ultrasonic.sensor" />
+   <xacro:include filename="$(find thunder_line_follower_pmr3100)/urdf/sensors/line.sensor" />
+   <xacro:include filename="$(find thunder_line_follower_pmr3100)/urdf/sensors/ultrasonic.sensor" />
 
   <!-- Corpo -->
   <gazebo reference="base_link">
@@ -33,7 +33,7 @@
   <!-- Load gazebo plugin to control the robot -->
   <gazebo>
     <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
-      <robotNamespace>/modelo_carrinho</robotNamespace>
+      <robotNamespace>/thunder_line_follower_pmr3100</robotNamespace>
     </plugin>
   </gazebo>
 
