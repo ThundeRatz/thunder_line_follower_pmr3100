@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 find_package(gazebo REQUIRED)
+find_package(roslaunch REQUIRED)
 
 find_package(catkin REQUIRED COMPONENTS
   gazebo_plugins
@@ -35,15 +36,17 @@ include_directories(plugins/include)
 add_library(line_sensor_plugin SHARED plugins/src/line_sensor_plugin.cpp)
 target_link_libraries(line_sensor_plugin CameraPlugin ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES})
 
-find_package(roslaunch REQUIRED)
+install(TARGETS line_sensor_plugin
+  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+)
 
 foreach(dir config launch meshes urdf)
 	install(DIRECTORY ${dir}/
 		DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
-endforeach(dir)
+endforeach()
 
 install(DIRECTORY plugins/include
-    DESTINATION ${CATKIN_GLOBAL_INCLUDE_DESTINATION}
+    DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
 )
 
 catkin_install_python(PROGRAMS scripts/keyboard_node.py
