@@ -1,12 +1,11 @@
 <package format="2">
-  <name>modelo_carrinho</name>
+  <name>thunder_line_follower_pmr3100</name>
 
   <version>1.0.0</version>
 
   <description>
-    <p>URDF Description package for modelo_carrinho</p>
-    <p>This package contains configuration data, 3D models and launch files
-for modelo_carrinho robot</p>
+    <p>Simulation environment for a line follower development</p>
+    <p>Created for the discipline PMR3100 - Intro to Mechatronics from Poli-USP</p>
   </description>
 
   <maintainer email="felipegmelo@usp.br">Felipe Gomes de Melo</maintainer>
@@ -27,7 +26,6 @@ for modelo_carrinho robot</p>
   <depend>roslaunch</depend>
   <depend>robot_state_publisher</depend>
   <depend>velocity_controllers</depend>
-  <depend>rviz</depend>
   <depend>joint_state_publisher</depend>
   <depend>gazebo</depend>
 
@@ -43,6 +41,8 @@ for modelo_carrinho robot</p>
   <build_export_depend>gazebo_ros</build_export_depend>
   <build_export_depend>roscpp</build_export_depend>
 
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>controller_manager</exec_depend>
   <exec_depend>geometry_msgs</exec_depend>
   <exec_depend>rospy</exec_depend>
   <exec_depend>python-pygame</exec_depend>

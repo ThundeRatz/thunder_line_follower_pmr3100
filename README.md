@@ -7,7 +7,7 @@ Modelo de simulação de um seguidor de linha simples
 Para executar a simulação, utilize:
 
 ```bash
-roslaunch modelo_carrinho gazebo.launch
+roslaunch thunder_line_follower_pmr3100 gazebo.launch
 ```
 
 ## Dependências
@@ -27,7 +27,7 @@ sudo apt install ros-noetic-velocity-controllers python-pygame
 Ou com ```rosdep```
 
 ```bash
-rosdep install modelo_carrinho
+rosdep install thunder_line_follower_pmr3100
 ```
 
 ## 🎨 Cores do Gazebo

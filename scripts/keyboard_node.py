@@ -34,7 +34,7 @@ INVERT_ARMA_AXIS = True
 ROBOTS = 1
 
 # Namespace dos tópicos que iremos publicar
-DEFAULT_NAMESPACE = "/modelo_carrinho"
+DEFAULT_NAMESPACE = "/thunder_line_follower_pmr3100"
 
 DEFAULT_DEBUG = False
 
