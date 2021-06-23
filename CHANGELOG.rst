@@ -2,6 +2,6 @@
 Changelog for package thunder_line_follower_pmr3100
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.1 (2021-06-23)
+------------------
 * First working version \o/

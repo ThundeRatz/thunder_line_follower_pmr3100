@@ -1,7 +1,7 @@
 <package format="2">
   <name>thunder_line_follower_pmr3100</name>
 
-  <version>0.1.0</version>
+  <version>0.1.1</version>
 
   <description>
     <p>Simulation environment for a line follower development</p>
